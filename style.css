@@ -1,0 +1,92 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+}
+
+/* utilities */
+.padding-150 {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.bg-dark {
+  background: #212529;
+}
+
+.bg-cloud {
+  background: rgb(236, 240, 241);
+}
+
+.text-dark {
+  color: #212529;
+}
+
+.text-cloud {
+  color: rgb(236, 240, 241);
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+.font-70 {
+  font-size: 70px;
+}
+
+.font-80 {
+  font-size: 80px;
+}
+
+/* header */
+.bg{
+  background: url('img/montagne8.jpeg') 10%;
+  background-size: cover;
+}
+
+/*navbar*/
+
+
+
+/* social media icons - CSS animations */
+
+section#contact a {
+display: inline-block;
+width: 128px;
+height: 128px;
+transition: all 0.5s;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+-o-transition: all 0.5s;
+
+}
+
+a.lkd {
+  background: url('img/PNG/Circle Grey/Linkedin.png');
+}
+
+a.tw {
+  background: url('img/PNG/Circle Grey/Twitter.png');
+}
+
+a.git {
+  background: url('img/PNG/Circle Grey/Github.png');
+}
+section#contact li:hover a.lkd {
+  background: url('img/PNG/Circle Color/Linkedin.png');
+}
+
+section#contact li:hover a.tw {
+  background: url('img/PNG/Circle Color/Twitter.png');
+}
+
+section#contact li:hover a.git {
+  background: url('img/PNG/Circle Color/Github.png');
+}
