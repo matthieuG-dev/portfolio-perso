@@ -1,92 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
 body {
-  font-family: 'Quicksand', sans-serif;
-  position: relative;
-}
+    font-family: 'Quicksand', sans-serif;
+     position: relative;
+  }
 
 /* utilities */
+
+
 .padding-150 {
-  padding-top: 150px;
-  padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
-.bg-dark {
-  background: #212529;
+.bg-grey {
+    background: rgb(45, 45, 45);
 }
 
 .bg-cloud {
-  background: rgb(236, 240, 241);
-}
-
-.text-dark {
-  color: #212529;
+    background: rgb(236, 240, 241);
 }
 
 .text-cloud {
-  color: rgb(236, 240, 241);
+    color: rgb(236, 240, 241);
 }
 
-.padding-0 {
-  padding: 0;
+.text-dark {
+    color: rgb(91, 91, 91);
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.paddingZero {
+    padding: 0;
 }
 
 .padding-10 {
-  padding: 10px;
+    padding: 10px;
+}
+
+.padding-20 {
+    padding: 20px;
 }
 
 .font-60 {
-  font-size: 60px;
+    font-size: 60px;
 }
-
 .font-70 {
-  font-size: 70px;
+    font-size: 70px;
+}
+.font-80 {
+   font-size: 80px;
 }
 
-.font-80 {
-  font-size: 80px;
+/* navbar */
+#navbar {
+    transition: all 1s;
+    -moz-transition: all 1;
+    -webkit-transition: all 1s;
+    -o-transition: all 1;
 }
+
+.bg-clear {
+    background: transparent;
+}
+
 
 /* header */
-.bg{
-  background: url('img/montagne8.jpeg') 10%;
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-opacity {
+  background: rgba(245, 245, 245, 0.44);
+  border-radius: 3px;
+}
+
+.bg {
+  background: url('img/road.jpg') 5%;
   background-size: cover;
 }
 
-/*navbar*/
 
-
-
-/* social media icons - CSS animations */
-
+/*social media icons - CSS animation */
 section#contact a {
-display: inline-block;
-width: 128px;
-height: 128px;
-transition: all 0.5s;
--moz-transition: all 0.5s;
--webkit-transition: all 0.5s;
--o-transition: all 0.5s;
-
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 a.lkd {
-  background: url('img/PNG/Circle Grey/Linkedin.png');
+  background: url(img/social_media.png) -384px top ;
 }
 
 a.tw {
-  background: url('img/PNG/Circle Grey/Twitter.png');
+  background: url(img/social_media.png) -512px top;
 }
 
 a.git {
-  background: url('img/PNG/Circle Grey/Github.png');
+  background: url(img/social_media.png) 0px top;
+
 }
 section#contact li:hover a.lkd {
-  background: url('img/PNG/Circle Color/Linkedin.png');
+  background: url(img/social_media.png) -384px bottom;
 }
 
 section#contact li:hover a.tw {
-  background: url('img/PNG/Circle Color/Twitter.png');
+  background: url(img/social_media.png) -512px bottom;
 }
 
 section#contact li:hover a.git {
-  background: url('img/PNG/Circle Color/Github.png');
+  background: url(img/social_media.png) 0px bottom;
 }
